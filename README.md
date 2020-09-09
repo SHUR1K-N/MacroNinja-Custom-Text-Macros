@@ -6,6 +6,7 @@ This tool contains two editable and user-friendly .CFG files (Soft Macros.cfg an
 
 ## Default Macros & Usage
 Soft macro modifier key(s): **Ctrl**
+
 Hard macro modifier key(s): **Ctrl + Alt**
 
 |   	|  While Ctrl pressed	|While Ctrl + Alt pressed|
