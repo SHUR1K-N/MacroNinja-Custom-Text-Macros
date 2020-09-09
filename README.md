@@ -7,6 +7,8 @@ This package contains two editable and user-friendly .CFG files (Soft Macros.cfg
 Default soft macro modifier key(s): Ctrl
 Default hard macro modifier key(s): Ctrl + Alt
 
+#### Default Macros:
+
 Ctrl modifiers  | Ctrl + Alt modifiers
 -|-
 ~1. Thank you, ma'am!	|	~1. Thank you, sir!
