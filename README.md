@@ -28,6 +28,8 @@ Since the program is designed to indefinitely listen for key strokes until termi
 
 ## Dependencies to "pip install"
 
-**keyboard** (for keyboard control/listening)
+- **keyboard** (for keyboard control/listening)
+
+------------
 
 My website: http://bit.do/SHUR1KN
