@@ -9,18 +9,19 @@ Default hard macro modifier key(s): Ctrl + Alt
 
 #### Default Macros:
 
-|While Ctrl pressed| While Ctrl + Alt pressed
+|While Ctrl pressed| While Ctrl + Alt pressed|
 -|-
-1.| Thank you, ma'am!	|	Thank you, sir!
-2.|Yes, ma'am.		|	Yes, sir.
-3.|Okay, ma'am.	|	Okay, sir.
-4.|Understood, ma'am.	|	Understood, sir.
-5.|empty	|empty
-6.|empty	|empty
-7.|empty	|empty
-8.|empty	|empty
-9.|empty	|empty
-0.|empty	|empty
+1.| 	Thank you, ma'am!	|	Thank you, sir!
+2.|	Yes, ma'am.		|	Yes, sir.
+3.|	Okay, ma'am.		|	Okay, sir.
+4.|	Understood, ma'am.	|	Understood, sir.
+5.|	empty			|	empty
+6.|	empty			|	empty
+7.|	empty			|	empty
+8.|	empty			|	empty
+9.|	empty			|	empty
+0.|	empty			|	empty
+
 
 Since the program is designed to indefinitely listen for key strokes until terminated in order to serve its purpose, the consumption of resources (CPU) has also been minimized and optimized; so the program can be left running in the background for as long as required, or even be scheduled to run automatically at every system start (by placing MacroNinja (Headless).pyw in the **\Users\<YOUR USERNAME>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup** directory) without any prominent CPU usage.
 
