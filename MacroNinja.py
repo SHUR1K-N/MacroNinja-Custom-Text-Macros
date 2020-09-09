@@ -33,14 +33,14 @@ if __name__ == "__main__":
         tempString = file.read()
         tempListSoft = re.findall(r"~+[0-9]+\.\s(.+)", tempString)
         for index, element in enumerate(tempListSoft):
-            if tempListSoft[index] == "none":
+            if tempListSoft[index] == "empty":
                 tempListSoft[index] = ""
 
     with open("Hard Macros.cfg", "r") as file:
         tempString = file.read()
         tempListHard = re.findall(r"~+[0-9]+\.\s(.+)", tempString)
         for index, element in enumerate(tempListHard):
-            if tempListHard[index] == "none":
+            if tempListHard[index] == "empty":
                 tempListHard[index] = ""
 
     for index, element in enumerate(tempListSoft, start=1):
