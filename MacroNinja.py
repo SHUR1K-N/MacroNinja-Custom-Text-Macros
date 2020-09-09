@@ -35,7 +35,6 @@ if __name__ == "__main__":
         for index, element in enumerate(tempListSoft):
             if tempListSoft[index] == "none":
                 tempListSoft[index] = ""
-    print(tempListSoft)
 
     with open("Hard Macros.cfg", "r") as file:
         tempString = file.read()
