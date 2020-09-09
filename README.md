@@ -26,7 +26,7 @@ Hard macro modifier key(s): **Ctrl + Alt**
 ## Optimization
 Since the program is designed to indefinitely listen for key strokes until terminated in order to serve its purpose, the consumption of resources (CPU) has also been minimized and optimized; so the program can be left running in the background for as long as required, or even be scheduled to run automatically at every system start (by placing MacroNinja (Headless).pyw in the **\Users\USERNAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup** directory) without any prominent CPU usage.
 
-## Dependencies you may have to "pip install"
+## Dependencies to "pip install"
 
 **keyboard** (for keyboard control/listening)
 
