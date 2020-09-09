@@ -10,7 +10,7 @@ Default hard macro modifier key(s): Ctrl + Alt
 #### Default Macros:
 
 |While Ctrl pressed| While Ctrl + Alt pressed|
--|-|-
+-|-
 1.| 	Thank you, ma'am!	|	Thank you, sir!
 2.|	Yes, ma'am.		|	Yes, sir.
 3.|	Okay, ma'am.		|	Okay, sir.
