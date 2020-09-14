@@ -3,7 +3,7 @@
 ## Description
 A super simple tool that will send user-defined text from your keyboard whenever a user-defined key combination is pressed. It comes with two editable and user-friendly .CFG files (Soft Macros.cfg and Hard Macros.cfg), holding ten macros each.
 
-This project was created in Python and has both versions — headless (will run in the background) and windowed (will have a window with a macro-key guide open).
+This project was created in Python, for personal use with sending semi-automated chat messages while attending online lectures in a state of semi-comatose sleepiness. It has both versions — headless (will run in the background) and windowed (will have a window with a macro-key guide open).
 
 ## Default Macros & Usage
 - Soft macro modifier key(s): **Ctrl**
