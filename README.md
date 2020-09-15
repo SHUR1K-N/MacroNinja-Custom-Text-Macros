@@ -6,10 +6,10 @@ A super simple tool that will send user-defined text from your keyboard whenever
 This project was created in Python, for personal use with sending semi-automated chat messages while attending online lectures in a state of semi-comatose sleepiness. It has both versions — headless (will run in the background) and windowed (will have a window with a macro-key guide open).
 
 ## Default Macros & Usage
-- Soft macro modifier key(s): **Ctrl**
-- Hard macro modifier key(s): **Ctrl + Alt**
+- Soft macro modifier key(s): **CTRL**
+- Hard macro modifier key(s): **CTRL + ALT**
 
-|   	|  While Ctrl pressed	|While Ctrl + Alt pressed|
+|   	|  While CTRL pressed	|While CTRL + ALT pressed|
 |-------| 	------------ 	| 	------------	 |
 |1.	|Thank you, ma'am!	|Thank you, sir!	 |
 |2.	|Yes, ma'am.		|Yes, sir.		 |
