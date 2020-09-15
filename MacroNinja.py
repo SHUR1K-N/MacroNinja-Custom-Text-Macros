@@ -5,8 +5,8 @@ import re; import os
 macrosSoft = {}
 macrosHard = {}
 
-softModifier = "ctrl"
-hardModifier = "ctrl + alt"
+softModifier = "CTRL"
+hardModifier = "CTRL + ALT"
 
 
 def macroMatch(self):
@@ -19,10 +19,10 @@ def macroMatch(self):
 def macroGuide():
     print(f"{'Soft Macros':^20}\n")
     for keyS, valueS in macrosSoft.items():
-        print(f"CTRL + {keyS:-<5}|{valueS}")
+        print(f"{softModifier} + {keyS:-<5}|{valueS}")
     print(f"\n{'Hard Macros':^20}\n")
     for keyH, valueH in macrosHard.items():
-        print(f"CTRL + ALT + {keyH:-<5}|{valueH}")
+        print(f"{hardModifier} + {keyH:-<5}|{valueH}")
 
 
 ######################### Main #########################
