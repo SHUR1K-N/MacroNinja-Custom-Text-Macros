@@ -1,9 +1,13 @@
 import keyboard; import time
+from termcolor import colored
+from colorama import init
 import re; import os
 
 
 macrosSoft = {}
 macrosHard = {}
+
+# Available modifiers: ALT, CTRL, SHIFT, WINDOWS
 
 softModifier = "CTRL"
 hardModifier = "CTRL + ALT"
@@ -17,17 +21,19 @@ def macroMatch(self):
 
 
 def macroGuide():
-    print(f"{'Soft Macros':^20}\n")
+    print(colored(f"\n{'Soft Macros':^20}\n", "green"))
     for keyS, valueS in macrosSoft.items():
-        print(f"{softModifier} + {keyS:-<5}|{valueS}")
-    print(f"\n{'Hard Macros':^20}\n")
+        print(colored(f"{softModifier} + {keyS:-<5}{valueS}", "green"))
+    print(colored(f"\n{'Hard Macros':^20}\n", "red"))
     for keyH, valueH in macrosHard.items():
-        print(f"{hardModifier} + {keyH:-<5}|{valueH}")
+        print(colored(f"{hardModifier} + {keyH:-<5}{valueH}", "red"))
 
 
 ######################### Main #########################
 
 if __name__ == "__main__":
+
+    init()
 
     with open("Soft Macros.cfg", "r") as file:
         tempString = file.read()
