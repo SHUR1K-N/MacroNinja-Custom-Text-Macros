@@ -9,7 +9,7 @@ This project was created in Python, for personal use with sending semi-automated
 - Soft macro modifier key(s): **CTRL**
 - Hard macro modifier key(s): **CTRL + ALT**
 
-|   	|  While CTRL pressed	|While CTRL + ALT pressed|
+|   	|While CTRL pressed	|While CTRL + ALT pressed|
 |-------|-----------------------|------------------------|
 |1.	|Thank you, ma'am!	|Thank you, sir!	 |
 |2.	|Yes, ma'am.		|Yes, sir.		 |
