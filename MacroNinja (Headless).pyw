@@ -5,8 +5,10 @@ import re; import os
 macrosSoft = {}
 macrosHard = {}
 
-softModifier = "ctrl"
-hardModifier = "ctrl + alt"
+# Available modifiers: ALT, CTRL, SHIFT, WINDOWS
+
+softModifier = "CTRL"
+hardModifier = "CTRL + ALT"
 
 
 def macroMatch(self):
