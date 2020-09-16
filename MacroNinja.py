@@ -3,12 +3,12 @@ from termcolor import colored
 from colorama import init
 import re; import os
 
+init() # Initilizing colors
 
 macrosSoft = {}
 macrosHard = {}
 
 # Available modifiers: ALT, CTRL, SHIFT, WINDOWS
-
 softModifier = "CTRL"
 hardModifier = "CTRL + ALT"
 
