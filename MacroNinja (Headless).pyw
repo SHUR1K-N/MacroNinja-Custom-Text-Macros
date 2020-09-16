@@ -1,12 +1,10 @@
 import keyboard; import time
 import re; import os
 
-
 macrosSoft = {}
 macrosHard = {}
 
-# Available modifiers: ALT, CTRL, SHIFT, WINDOWS
-
+# Available modifier key names: ALT, CTRL, SHIFT, WINDOWS
 softModifier = "CTRL"
 hardModifier = "CTRL + ALT"
 
@@ -48,7 +46,7 @@ if __name__ == "__main__":
         else:
             macrosHard["0"] = element
 
-    while True:
+    while (True):
         if keyboard.is_pressed(softModifier):
             chosenDict = macrosSoft
             keyboard.on_press(macroMatch)

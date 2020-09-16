@@ -1,14 +1,14 @@
 import keyboard; import time
 from termcolor import colored
-from colorama import init
+import colorama
 import re; import os
 
-init() # Initilizing colors
+colorama.init()
 
 macrosSoft = {}
 macrosHard = {}
 
-# Available modifiers: ALT, CTRL, SHIFT, WINDOWS
+# Available modifier key names: ALT, CTRL, SHIFT, WINDOWS
 softModifier = "CTRL"
 hardModifier = "CTRL + ALT"
 
@@ -24,6 +24,7 @@ def macroGuide():
     print(colored(f"\n{'Soft Macros':^20}\n", "green"))
     for keyS, valueS in macrosSoft.items():
         print(colored(f"{softModifier} + {keyS:-<5}{valueS}", "green"))
+
     print(colored(f"\n{'Hard Macros':^20}\n", "red"))
     for keyH, valueH in macrosHard.items():
         print(colored(f"{hardModifier} + {keyH:-<5}{valueH}", "red"))
@@ -32,8 +33,6 @@ def macroGuide():
 ######################### Main #########################
 
 if __name__ == "__main__":
-
-    init()
 
     with open("Soft Macros.cfg", "r") as file:
         tempString = file.read()
@@ -63,7 +62,7 @@ if __name__ == "__main__":
 
     macroGuide()
 
-    while True:
+    while (True):
         if keyboard.is_pressed(softModifier):
             chosenDict = macrosSoft
             keyboard.on_press(macroMatch)
