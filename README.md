@@ -22,6 +22,11 @@ This project was created in Python, for personal use with sending semi-automated
 |9.	|empty			|empty			 |
 |0.	|empty			|empty			 |
 
+<div align="center">
+<img src="https://github.com/SHUR1K-N/MacroNinja-Simple-Custom-Text-Macros/blob/master/Images/Example.png" >
+<p>Example Execution</p>
+</div>
+
 
 ## Optimization
 Since the program is designed to indefinitely listen for key strokes until terminated in order to serve its purpose, the consumption of resources (CPU) has also been minimized and optimized; so the program can be left running in the background for as long as required, or even be scheduled to run automatically at every system start (by placing "MacroNinja (Headless).pyw" in the **\Users\USERNAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup** directory) without any prominent CPU usage.
