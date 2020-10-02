@@ -1,7 +1,7 @@
 import keyboard; import time
+import re; import os
 from termcolor import colored
 import colorama
-import re; import os
 
 colorama.init()
 
