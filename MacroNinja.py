@@ -63,10 +63,13 @@ if __name__ == "__main__":
     macroGuide()
 
     while (True):
-        if keyboard.is_pressed(softModifier):
-            chosenDict = macrosSoft
-            keyboard.on_press(macroMatch)
-        if keyboard.is_pressed(hardModifier):
-            chosenDict = macrosHard
-            keyboard.on_press(macroMatch)
-        time.sleep(0.0001)
+        try:
+            if keyboard.is_pressed(softModifier):
+                chosenDict = macrosSoft
+                keyboard.on_press(macroMatch)
+                if keyboard.is_pressed(hardModifier):
+                    chosenDict = macrosHard
+                    keyboard.on_press(macroMatch)
+                    time.sleep(0.0001)
+        except KeyboardInterrupt:
+            continue
