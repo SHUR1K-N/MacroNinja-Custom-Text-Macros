@@ -70,6 +70,6 @@ if __name__ == "__main__":
                 if keyboard.is_pressed(hardModifier):
                     chosenDict = macrosHard
                     keyboard.on_press(macroMatch)
-                    time.sleep(0.0001)
+            time.sleep(0.0001)
         except KeyboardInterrupt:
             continue
