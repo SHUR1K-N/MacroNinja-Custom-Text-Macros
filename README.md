@@ -18,13 +18,13 @@ This project was created in Python, for personal use with sending semi-automated
 
 |   	|While CTRL pressed	|While CTRL + ALT pressed|
 |-------|-----------------------|------------------------|
-|1.	|Thank you, ma'am!	|Thank you, sir!	 |
-|2.	|Yes, ma'am.		|Yes, sir.		 |
+|1.	|Yes, ma'am.		|Yes, sir.		 |
+|2.	|No, ma'am.		|No, sir.		 |
 |3.	|Okay, ma'am.		|Okay, sir.		 |
 |4.	|Understood, ma'am.	|Understood, sir.	 |
-|5.	|empty			|empty			 |
-|6.	|empty			|empty			 |
-|7.	|empty			|empty			 |
+|5.	|Thank you, ma'am!	|Thank you, sir!	 |
+|6.	|Good morning, ma'am!	|Good morning, sir!	 |
+|7.	|Good afternoon, ma'am!	|Good afternoon, sir!	 |
 |8.	|empty			|empty			 |
 |9.	|empty			|empty			 |
 |0.	|empty			|empty			 |
