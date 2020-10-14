@@ -6,7 +6,7 @@ A simple tool that will send user-defined text from your keyboard whenever a use
 <div align="center">
 <img src="https://github.com/SHUR1K-N/MacroNinja-Simple-Custom-Text-Macros/blob/master/Images/Example.png" >
 <p>Example Execution</p>
-</div> 
+</div>
 
 This project was created in Python, for personal use with sending semi-automated chat messages while attending online lectures in a state of semi-comatose sleepiness. It has both versions — headless (will run in the background) and windowed (will have a window with a macro-key guide open as the above image).
 
