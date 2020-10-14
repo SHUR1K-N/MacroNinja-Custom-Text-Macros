@@ -1,7 +1,7 @@
-# MacroNinja: Simple Custom Text Macros
+# MacroNinja: Custom Text Macros
 
 ## Description
-A super simple tool that will send user-defined text from your keyboard whenever a user-defined key combination is pressed. It comes with two editable and user-friendly .CFG files (Soft Macros.cfg and Hard Macros.cfg), holding ten macros each.
+A simple tool that will send user-defined text from your keyboard whenever a user-defined key combination is pressed. It comes with two editable and user-friendly .CFG files (Soft Macros.cfg and Hard Macros.cfg), holding ten macros each.
 
 <div align="center">
 <img src="https://github.com/SHUR1K-N/MacroNinja-Simple-Custom-Text-Macros/blob/master/Images/Example.png" >
