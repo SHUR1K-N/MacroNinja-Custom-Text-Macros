@@ -4,7 +4,7 @@
 A simple tool that will send user-defined text from your keyboard whenever a user-defined key combination is pressed. It comes with two editable and user-friendly .CFG files (Soft Macros.cfg and Hard Macros.cfg), holding ten macros each.
 
 <div align="center">
-<img src="https://github.com/SHUR1K-N/MacroNinja-Simple-Custom-Text-Macros/blob/master/Images/Example.png" >
+<img src="https://github.com/SHUR1K-N/MacroNinja-Custom-Text-Macros/blob/master/Images/Example.png" >
 <p>Example Execution</p>
 </div>
 
