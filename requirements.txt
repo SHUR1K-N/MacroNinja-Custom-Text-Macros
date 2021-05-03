@@ -1,1 +1,3 @@
 keyboard	# for keyboard control/listening
+colorama 	# for colors
+termcolor 	# for colors
